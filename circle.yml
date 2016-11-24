@@ -1,0 +1,19 @@
+machine:
+  node:
+    version: 6.9.1
+  services:
+
+general:
+  artifacts:
+    - 'dist'
+
+branches:
+
+dependencies:
+  pre:
+    - npm install
+    - npm update
+    - npm prune
+  override:
+    - npm run build
+

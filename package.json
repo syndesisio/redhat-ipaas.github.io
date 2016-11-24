@@ -1,33 +1,30 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.0.7",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
+  "name": "redhat-ipaas.github.io",
+  "version": "1.0.0",
+  "description": "Official repository for the Red Hat iPaaS GitHub organization.",
+  "main": "server.js",
+  "authors": [
+    "Rachel Yordán <rachel.yordan@redhat.com> (https://github.com/kahboom)"
   ],
-  "author": "Michael Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "devDependencies": {
-    "npm-run-all": "^1.7.0",
-    "onchange": "^2.2.0",
-    "uglify-js": "^2.6.1"
+    "gh-pages": "0.12.0"
   },
   "scripts": {
-    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugins/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
-    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify"
-  }
+    "build": "bundle exec jekyll build",
+    "deploy": "npm install && npm run build && gh-pages -d _site",
+    "preinstall": "bundle install",
+    "serve": "bundle exec jekyll serve",
+    "start": "npm run serve",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat-ipaas/redhat-ipaas.github.io.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/redhat-ipaas/redhat-ipaas.github.io/issues"
+  },
+  "homepage": "https://github.com/redhat-ipaas/redhat-ipaas.github.io#readme"
 }
