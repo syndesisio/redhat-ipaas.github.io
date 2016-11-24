@@ -10,11 +10,9 @@
   },
   "scripts": {
     "build": "bundle exec jekyll build",
-    "deploy": "npm install && npm run build && gh-pages -d _site",
     "preinstall": "bundle install",
     "serve": "bundle exec jekyll serve",
-    "start": "npm run serve",
-    "test": "npm test"
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
