@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "GitHub Organization"
+    url: https://github.com/redhat-ipaas
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -11,46 +13,30 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 side:
-  - title: Getting Started
+  - title: Planning & Overview
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Project Overview"
+        url: /project-overview/
+      - title: "Technical Overview"
+        url: /technical-overview/
+      - title: "Roadmap"
+        url: /roadmap
+      - title: "Resources"
+        url: /resources
+      - title: "Contacts"
+        url: /contacts
 
-  - title: Customization
+  - title: Design & UX
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "UX Designs"
+        url: /designs/
 
-  - title: Content
+  - title: Presentation Layer
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+      - title: "Client"
+        url: /client/
+      - title: "API"
+        url: /api/
 
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+  - title: Backend
+    url: /backend/
