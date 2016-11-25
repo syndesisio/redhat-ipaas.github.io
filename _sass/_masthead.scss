@@ -11,6 +11,12 @@
           animation-delay: 0.15s;
   z-index: 20;
 
+  &.greedy-nav {
+    a, a:hover {
+      text-decoration: none;
+    }
+  }
+
   &__inner-wrap {
     @include container;
     @include clearfix;
@@ -50,4 +56,8 @@
     padding-right: 2em;
     font-weight: 700;
   }
+}
+
+.greedy-nav .masthead a:hover {
+  color: #5c6266;
 }
