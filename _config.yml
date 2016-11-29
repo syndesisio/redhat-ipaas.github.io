@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Red Hat iPaaS"
 title_separator          : "|"
-name                     : "Red Hat, Inc."
+name                     : "Red Hat, Inc"
 logo_text                : "/assets/images/rh_ipaas_small_blacktext.svg"
 logo_image               : "/assets/images/glasses_logo.svg"
 description              : "The official website for the Red Hat iPaaS GitHub organization."

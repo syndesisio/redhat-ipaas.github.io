@@ -37,6 +37,8 @@ side:
         url: /client/
       - title: "API"
         url: /api/
+      - title: "Contributing"
+        url: /contributing/
 
   - title: Backend
     url: /backend/

@@ -15,6 +15,10 @@
     a, a:hover {
       text-decoration: none;
     }
+
+    &.visible-links a:before, a, a:hover {
+      background: none;
+    }
   }
 
   &__inner-wrap {
