@@ -17,12 +17,10 @@ side:
     children:
       - title: "Project Overview"
         url: /project-overview/
-      - title: "Technical Overview"
-        url: /technical-overview/
       - title: "Roadmap"
         url: /roadmap
-      - title: "Resources"
-        url: /resources
+      - title: "Technical Overview"
+        url: /technical-overview/
       - title: "Contacts"
         url: /contacts
 
