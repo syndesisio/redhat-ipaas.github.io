@@ -3,8 +3,7 @@ permalink: /contributing/
 title: "Contributing"
 ---
 
-# Contributing
-Pull requests are *always* welcome. Please be sure to read through this entire guide before opening up 
+Pull requests are always welcome. Please be sure to read through this entire guide before opening up 
 a pull request.
 
 **We also highly recommend reading the [Technical Overview](./overview.md) of this project before contributing.**

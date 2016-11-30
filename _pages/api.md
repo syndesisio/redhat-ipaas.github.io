@@ -11,7 +11,7 @@ While iPaaS can certainly be considered to have a Service Oriented Architecture 
 Pull requests are always welcome. Please be sure to read through this entire guide before opening up a
  pull request for the API.
 
-**We also highly recommend reading the [Technical Overview](./overview.md) and [Contributing](./contributing.md)
+**We also highly recommend reading the [Technical Overview](https://github.com/redhat-ipaas/ipaas-api/blob/master/docs/overview.md) and [Contributing](https://github.com/redhat-ipaas/ipaas-api/blob/master/docs/contributing.md)
 docs before contributing.**
 
 ### Getting Started
@@ -40,7 +40,7 @@ We provide a set of seed JSON files to populate the database, which you can enab
 
 
 ## Models
-To see a list of models, go to the [`src/models`](../src/models/index.js) file. Each subdirectory 
+To see a list of models, go to the [`src/models`](https://github.com/redhat-ipaas/ipaas-api/blob/master/src/models/index.js) file. Each subdirectory 
 there is a model, which contains a file for each ORM it needs to be mapped to. By default, this ORM is
  Sequelize. We haven't found the need to use another ORM, but feel free to do so as this application 
  is setup to handle swapping out ORMs quite easily, so long as you provide the mapping via a file 
@@ -53,7 +53,7 @@ within the `sequelize.js` files of the model subdirectories.
 There are a few things you need to do in order to create a new model:
 
 - **Create the model directory and ORM file.** You'll have to do this for each data store you will be using. For instance, if you are using Sequelize, you'd create the following file: `src/models/{modelName}/sequelize.js`. This is where you define the attributes you would like for your model. For a list of support data types in Sequelize, see [here](http://docs.sequelizejs.com/en/v3/docs/models-definition/#data-types).
-- **Create the routes file for the API.** It should be formatted like so: `src/api/{modelName}.js`. This is going to be where your route methods for the API or interface go. All routes are defined in [`./router.js`](../router.js), but they usually reference methods that are located in `/src/api/{modelName}.js`.
+- **Create the routes file for the API.** It should be formatted like so: `src/api/{modelName}.js`. This is going to be where your route methods for the API or interface go. All routes are defined in [`./router.js`](https://github.com/redhat-ipaas/ipaas-api/blob/master/router.js), but they usually reference methods that are located in `/src/api/{modelName}.js`.
 - **Create the repository file for the model.** Example: `src/repositories/{modelName}Repository.js`. There is an example in `src/repositories/ExampleRepository.js`. This is just a necessary step that allows you to provide custom methods that can be called by the service, such as `.getAllWithAssociations`, or things that may be specific to that model (e.g. `.createSquirrelWithoutTail`), should you need them. Most of the time, the `ExampleRepository.js` in that directory file will suffice without any custom methods, of course renamed to your model instead of `Example`.
 - **Create the service file for the model.** Example: `src/services/{modelName}Service.js`.There is an example in `src/services/ExampleService.js`. This is just a necessary step that allows you to provide custom formatting when you are using more than one data store, or repository. In the near future, we hope to make this an optional step and not a requirement.
 - **Create dummy seed data for the model. (optional)** Open up the following file: `src/data/fixtures/{your environment}.json` and add whatever dummy data you'd like your database to be populated with.
