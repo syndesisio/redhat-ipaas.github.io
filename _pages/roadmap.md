@@ -3,6 +3,7 @@ permalink: /roadmap/
 title: "Roadmap"
 ---
 
-**Current Sprint:** 5
+**Current Sprint:** 6
+**Deadline:** December 21, 2016 (Wednesday)
 
-[JIRA Tasks](https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626&sprint=5420)
+[JIRA Tasks](https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626)

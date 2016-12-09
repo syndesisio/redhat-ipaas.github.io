@@ -11,15 +11,14 @@ a pull request.
 ## Getting Started
 - Fork the repository you'd like to collaborate on.
 - Clone your fork of that repository, NOT the original repository directly.
-- Follow instructions on the README.md of the repository to install any dependencies. For the API 
-and Client, this likely just means running `npm i` or `npm install` and then `npm start` to run it. This 
+- Follow instructions on the README.md of the repository to install any dependencies. This 
 varies from repository to repository. Please see the menu on the left-hand side to navigate to 
 repository-specific details.
 
 
 ## Guidelines
 
-This may sound like a list of strict rules, but don't be discouraged! These are guidelines for consistency and to make everyone's lives easier, but we welcome contributors of all levels of expertise and will work with you to try and follow these best practices. An open source community is just that - a community - not a panel of experts. :)
+These are guidelines for consistency and to make everyone's lives easier, but we welcome contributors of all levels of expertise and will work with you to try and follow these best practices. An open source community is just that - a community - not a panel of experts. :)
 
 ### Tests
 - Please write unit tests for all of your code.
@@ -32,7 +31,6 @@ This may sound like a list of strict rules, but don't be discouraged! These are 
 ### Creating PRs
 - Please reference any GitHub issue relevant.
 - Add user readable descriptions of the changes this PR brings if merged in.
-- Try to stay on point and not give a huge backstory unless it's necessary and not documented in another GitHub issue.
 - Screenshots are almost always helpful unless the changes are very minor or if it's just pure code. 
 Use your judgment here. UI changes almost always translate into screenshots being helpful.
  
