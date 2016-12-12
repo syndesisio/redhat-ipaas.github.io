@@ -7,6 +7,7 @@ title: "UX & Design"
 We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host prototypes, which consist of click-thru designs that the Presentation Layer is based off of. Please click on the dialpad button on the bottom right-hand corner to view all designs.
 
 **Planning and Workflows**
+
 - [iPaaS UX Planning](https://redhat.invisionapp.com/share/HB9OF7IKZ)
 
 
@@ -29,11 +30,13 @@ We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host 
 ### Integrations
 
 **Integration List**
+
 - [Integration: Empty](https://redhat.invisionapp.com/share/HZ9OFKOGQ)
 - [Integration Filter](https://redhat.invisionapp.com/share/6R9OFKV57)
 - [Integration List](https://redhat.invisionapp.com/share/2Q9OFL09P)
 
 **Create an Integration**
+
 - [Integration Visualization Proposal V3](https://redhat.invisionapp.com/share/259377QCA)
 - [Homepage Action Button](https://redhat.invisionapp.com/share/UT929SIR8)
 - [Homepage Action Button Dropped Down](https://redhat.invisionapp.com/share/7Q9OFLLNM)
@@ -54,6 +57,7 @@ We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host 
 ### Templates
 
 **Template List**
+
 - [Template2](https://redhat.invisionapp.com/share/4R9OFP3YU)
 - [Filter](https://redhat.invisionapp.com/share/MA9OFP9CP)
 - [Empty](https://redhat.invisionapp.com/share/TY9OFPFDJ)
