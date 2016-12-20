@@ -5,7 +5,9 @@ title: "Client"
 
 [![CircleCI](https://circleci.com/gh/redhat-ipaas/ipaas-client.svg?style=svg)](https://circleci.com/gh/redhat-ipaas/ipaas-client)
 
-The front end application for Red Hat iPaaS. For the middle tier API that this client communicates with, please see [this](https://github.com/redhat-ipaas/ipaas-api-java) repo.
+The front end application for Red Hat iPaaS. For the middle tier API that this client communicates with, please see [this](https://github.com/redhat-ipaas/ipaas-api-java) GitHub repo.
+
+[Live Staging](http://ipaas.staging.rh.fabric8.io)
 
 Included in this stack are the following technologies:
 

@@ -4,8 +4,14 @@ main:
     url: https://github.com/redhat-ipaas
   - title: "Client Repo"
     url: https://github.com/redhat-ipaas/ipaas-client
+  - title: "Client Staging"
+    url: http://ipaas.staging.rh.fabric8.io
   - title: "API Repo"
     url: https://github.com/redhat-ipaas/ipaas-api-java
+  - title: "API Staging"
+    url: http://ipaas-api.staging.rh.fabric8.io
+  - title: "API Swagger Spec"
+    url: http://ipaas-api.staging.rh.fabric8.io/v1/swagger.json
 side:
   - title: Planning & Overview
     children:

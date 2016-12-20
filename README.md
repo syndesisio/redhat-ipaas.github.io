@@ -6,13 +6,12 @@ Click [here](https://github.com/redhat-ipaas) for the Red Hat iPaaS GitHub organ
 
 ## Client
 - [GitHub Repository](https://github.com/redhat-ipaas/ipaas-client)
-- [Live Staging/Demo](https://redhat-ipaas.github.io/ipaas-client)
+- [Live Staging](http://ipaas.staging.rh.fabric8.io)
 
 ## API
-- [Repository](https://github.com/redhat-ipaas/ipaas-api)
-- [Documentation](https://redhat-ipaas.github.io/ipaas-apis)
-- [Documentation GitHub Repository](https://github.com/redhat-ipaas/ipaas-api-docs)
-- Live Staging/Demo
+- [GitHub Repository](https://github.com/redhat-ipaas/ipaas-api)
+- [Live Staging](http://ipaas-api.staging.rh.fabric8.io)
+- [Swagger Spec](http://ipaas-api.staging.rh.fabric8.io/v1/swagger.json)
 
 ## Contributing
 
