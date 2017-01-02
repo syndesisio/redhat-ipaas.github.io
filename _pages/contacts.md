@@ -13,5 +13,5 @@ title: "Contacts"
 - Quality Engineering: David Simansky (dsimansky@redhat.com)
 - OpenShift: Diogenes Rettori (drettori@redhat.com)
 
-If I missed anyone, please let me know at rachel.yordan@redhat.com or feel free to edit this feel via 
+If I missed anyone, please let me know at rachel.yordan@redhat.com or feel free to edit this page via 
 GitHub.
