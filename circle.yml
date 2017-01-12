@@ -19,3 +19,9 @@ dependencies:
 test:
   override:
     - echo "test"
+
+deployment:
+  production:
+    branch: master
+    commands:
+    - ./scripts/deploy-ghpages.sh build

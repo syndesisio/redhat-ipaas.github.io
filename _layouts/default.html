@@ -13,7 +13,7 @@
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    {{ content | modify_external_links: "^.*?[.]?(redhat-ipaas.github[.]io|localhost).*?" }}
 
     <div class="page__footer">
       <footer>

@@ -14,7 +14,7 @@ layout: default
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
     <section class="page__content" itemprop="text">
-      {{ content }}
+      {{ content | modify_external_links: "^.*?[.]?(redhat-ipaas.github[.]io|localhost).*?" }}
     </section>
   </article>
 </div>
