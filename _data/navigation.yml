@@ -5,7 +5,7 @@ main:
   - title: "Client Repo"
     url: https://github.com/redhat-ipaas/ipaas-client
   - title: "Client Staging"
-    url: http://ipaas.staging.rh.fabric8.io
+    url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com/dashboard
   - title: "API Repo"
     url: https://github.com/redhat-ipaas/ipaas-api-java
   - title: "API Staging"
