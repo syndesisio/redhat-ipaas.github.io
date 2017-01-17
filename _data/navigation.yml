@@ -5,13 +5,13 @@ main:
   - title: "Client Repo"
     url: https://github.com/redhat-ipaas/ipaas-client
   - title: "Client Staging"
-    url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com/dashboard
+    url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com
   - title: "API Repo"
     url: https://github.com/redhat-ipaas/ipaas-api-java
   - title: "API Staging"
-    url: http://ipaas-api.staging.rh.fabric8.io
+    url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com
   - title: "API Swagger Spec"
-    url: http://ipaas-api.staging.rh.fabric8.io/v1/swagger.json
+    url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com/swagger.json
 side:
   - title: Planning & Overview
     children:
@@ -37,6 +37,3 @@ side:
         url: /api/
       - title: "Contributing"
         url: /contributing/
-
-  - title: Backend
-    url: /backend/
