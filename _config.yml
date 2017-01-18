@@ -137,6 +137,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - yarn.lock
+  - "*.gemspec"
 keep_files:
   - .git
   - .svn
