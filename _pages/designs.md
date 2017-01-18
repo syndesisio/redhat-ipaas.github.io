@@ -3,6 +3,8 @@ permalink: /designs/
 title: "UX & Design"
 ---
 
+*Last Updated: January 18, 2017*
+
 ## Designs & Prototype
 We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host prototypes, which consist of click-thru designs that the Presentation Layer is based off of. Please click on the dialpad button on the bottom right-hand corner to view all designs.
 

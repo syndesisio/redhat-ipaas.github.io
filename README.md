@@ -4,9 +4,9 @@ The official page for Red Hat iPaaS, with quick links to important places releva
 
 Click [here](https://github.com/redhat-ipaas) for the Red Hat iPaaS GitHub organization.
 
-## Client
-- [GitHub Repository](https://github.com/redhat-ipaas/ipaas-client)
-- [Live Staging](http://ipaas.staging.rh.fabric8.io)
+## UI
+- [GitHub Repository](https://github.com/redhat-ipaas/ipaas-ui)
+- [Live Staging](https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com/)
 
 ## API
 - [GitHub Repository](https://github.com/redhat-ipaas/ipaas-api)
@@ -22,4 +22,4 @@ gem install jekyll bundler
 bundle exec jekyll serve
 ```
 
-And you should be able to see the Red Hat iPaaS website in your browser on `http://localhost:4000`.
+You should be able to see the Red Hat iPaaS website in your browser on `http://localhost:4000`.

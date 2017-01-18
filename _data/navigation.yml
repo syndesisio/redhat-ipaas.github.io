@@ -2,16 +2,14 @@
 main:
   - title: "GitHub Org"
     url: https://github.com/redhat-ipaas
-  - title: "Client Repo"
-    url: https://github.com/redhat-ipaas/ipaas-client
-  - title: "Client Staging"
+  - title: "UI Repo"
+    url: https://github.com/redhat-ipaas/ipaas-ui
+  - title: "UI Staging"
     url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com
   - title: "API Repo"
-    url: https://github.com/redhat-ipaas/ipaas-api-java
+    url: https://github.com/redhat-ipaas/ipaas-api
   - title: "API Staging"
     url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com
-  - title: "API Swagger Spec"
-    url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com/swagger.json
 side:
   - title: Planning & Overview
     children:
@@ -19,8 +17,6 @@ side:
         url: /project-overview/
       - title: "Roadmap"
         url: /roadmap
-      - title: "Technical Overview"
-        url: /technical-overview/
       - title: "Contacts"
         url: /contacts
 
@@ -31,8 +27,8 @@ side:
 
   - title: Presentation Layer
     children:
-      - title: "Client"
-        url: /client/
+      - title: "UI"
+        url: /ui/
       - title: "API"
         url: /api/
       - title: "Contributing"

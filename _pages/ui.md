@@ -1,12 +1,13 @@
 ---
-permalink: /client/
-title: "Client"
+permalink: /ui/
+title: "Red Hat iPaaS UI"
 ---
 
-[![CircleCI](https://circleci.com/gh/redhat-ipaas/ipaas-client.svg?style=svg)](https://circleci.com/gh/redhat-ipaas/ipaas-client)
+[![CircleCI](https://circleci.com/gh/redhat-ipaas/ipaas-ui.svg?style=svg)](https://circleci
+.com/gh/redhat-ipaas/ipaas-ui)
 
-The front end application for Red Hat iPaaS. For the middle tier API that this client communicates with, please see [this](https://github.com/redhat-ipaas/ipaas-api-java) GitHub repo. For up-to-date instructions on 
-how to get set up with the client, please go see the [README.md](https://github.com/redhat-ipaas/ipaas-client/blob/master/README.md) file.
+The front end application or UI for Red Hat iPaaS. For the middle tier API that this UI communicates with, please see [this](https://github.com/redhat-ipaas/ipaas-api) GitHub repo. For up-to-date instructions on 
+how to get set up with the UI, please go see the [README.md](https://github.com/redhat-ipaas/ipaas-ui/blob/master/README.md) file.
 
 [Live Staging](http://ipaas.staging.rh.fabric8.io)
 
@@ -16,7 +17,6 @@ Included in this stack are the following technologies:
 - Framework: [Angular 2][], [angular-cli][]
 - Module Bundler: [Webpack][]
 - Design Patterns: [PatternFly][]
-- Data Visualization: [C3][], [D3][]
 - Testing: [Jasmine][] (BDD Unit Test Framework), [Karma][] (Unit Test Runner)
 , [Protractor][] (E2E Framework), [Istanbul][] (Code Coverage)
 - Linting: [TsLint][] (Linting for TypeScript)
@@ -25,7 +25,7 @@ Included in this stack are the following technologies:
 
 
 # Contributing
-Pull requests are always welcome. Please read through our [Contribution](https://github.com/redhat-ipaas/ipaas-client/blob/master/docs/contributing.md) guidelines in the `/docs` directory.
+Pull requests are always welcome. Please read through our [Contribution](https://github.com/redhat-ipaas/ipaas-ui/blob/master/docs/contributing.md) guidelines in the `/docs` directory.
 
 
 ## Resources
