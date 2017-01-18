@@ -27,9 +27,9 @@ side:
 
   - title: Presentation Layer
     children:
-      - title: "UI"
+      - title: "iPaaS UI"
         url: /ui/
-      - title: "API"
+      - title: "iPaaS API"
         url: /api/
       - title: "Contributing"
         url: /contributing/
