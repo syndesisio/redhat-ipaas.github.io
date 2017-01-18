@@ -29,13 +29,13 @@ We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host 
 
 ### Integrations
 
-**Integration List**
+Integration List:
 
 - [Integration: Empty](https://redhat.invisionapp.com/share/HZ9OFKOGQ)
 - [Integration Filter](https://redhat.invisionapp.com/share/6R9OFKV57)
 - [Integration List](https://redhat.invisionapp.com/share/2Q9OFL09P)
 
-**Create an Integration**
+Create an Integration:
 
 - [Integration Visualization Proposal V3](https://redhat.invisionapp.com/share/259377QCA)
 - [Homepage Action Button](https://redhat.invisionapp.com/share/UT929SIR8)
@@ -56,7 +56,7 @@ We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host 
 
 ### Templates
 
-**Template List**
+Template List:
 
 - [Template2](https://redhat.invisionapp.com/share/4R9OFP3YU)
 - [Filter](https://redhat.invisionapp.com/share/MA9OFP9CP)
@@ -85,8 +85,6 @@ Draft.
 We are using [PatternFly][] for consistency across UIs in Red Hat and to make design implementation easier. As of 12/09/2016, PatternFly does not support Angular 2 out of the box, so we cannot use [angular-patternfly][] and instead need to use [ng-bootstrap][] for now.
 
 - [Bootstrap 4][]
-- [c3][]
-- [d3][]
 - [ng-bootstrap][]
 - [PatternFly][]
 - [PatternFly Vertical Navigation w/ Persistent Secondary (No Icons)][]
