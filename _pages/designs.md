@@ -13,8 +13,8 @@ We are using [InVision](https://www.invisionapp.com/){:target="_blank"} to host 
 
 ### Homepage & Dashboard
 
-- [Dashboard v5 (Empty)](https://redhat.invisionapp.com/share/ZP9OFK9V2)
-- [Dashboard v6](https://redhat.invisionapp.com/share/RK8ZD8OTD)
+- [Dashboard v7 (Empty)](https://redhat.invisionapp.com/share/YJ9P16RC8)
+- [Dashboard v7](https://redhat.invisionapp.com/share/6X9P1BECQ)
 
 
 ### Connections
