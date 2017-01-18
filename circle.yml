@@ -1,27 +1,14 @@
-machine:
-  node:
-    version: 6.9.1
-  ruby:
-      version: 2.3.0
-  services:
-
-branches:
-
-dependencies:
-  pre:
-    - gem install jekyll bundler
-    - npm install
-    - npm update
-    - npm prune
-  override:
-    - npm run build
+general:
+  branches:
+    ignore:
+      - gh-pages
 
 test:
   override:
-    - echo "test"
+    - exit 0
 
 deployment:
-  production:
+  staging:
     branch: master
     commands:
-    - ./scripts/deploy-ghpages.sh build
+      - ./scripts/deploy-ghpages.sh build
