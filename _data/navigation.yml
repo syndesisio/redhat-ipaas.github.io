@@ -7,7 +7,7 @@ main:
   - title: "UI Staging"
     url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com
   - title: "API Repo"
-    url: https://github.com/redhat-ipaas/ipaas-api
+    url: https://github.com/redhat-ipaas/ipaas-rest
   - title: "API Staging"
     url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com
 side:

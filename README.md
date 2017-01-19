@@ -9,7 +9,7 @@ Click [here](https://github.com/redhat-ipaas) for the Red Hat iPaaS GitHub organ
 - [Live Staging](https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com/)
 
 ## API
-- [GitHub Repository](https://github.com/redhat-ipaas/ipaas-api)
+- [GitHub Repository](https://github.com/redhat-ipaas/ipaas-rest)
 - [Live Staging](http://ipaas-api.staging.rh.fabric8.io)
 - [Swagger Spec](http://ipaas-api.staging.rh.fabric8.io/v1/swagger.json)
 
