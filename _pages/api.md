@@ -8,6 +8,6 @@ For more information about the API, please see the GitHub repository [here](http
 
 
 ## Resources
-- [API Swagger Spec](http://ipaas-api.staging.rh.fabric8.io/v1/swagger.json)
+- [API Swagger Spec](https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com/v1/swagger.json)
 - [GitHub Repository](https://github.com/redhat-ipaas/ipaas-rest)
 - [Live Staging](https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com/)
