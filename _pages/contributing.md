@@ -16,7 +16,7 @@ varies from repository to repository.
 
 These are guidelines for consistency and to make everyone's lives easier, but we welcome contributors of all levels of expertise and will work with you to try and follow these best practices. An open source community is just that - a community - not a panel of experts. :)
 
-- [UI Style Guide](https://github.com/redhat-ipaas/ipaas-ui-style-guide)
+- [UI Style Guide](https://github.com/redhat-ipaas/ipaas-ui-style-guide){:target="_blank"}
 
 
 ### Tests
