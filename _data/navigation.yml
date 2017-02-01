@@ -5,18 +5,20 @@ main:
   - title: "UI Repo"
     url: https://github.com/redhat-ipaas/ipaas-ui
   - title: "UI Staging"
-    url: https://ipaas-ui-staging.b6ff.rh-idev.openshiftapps.com
+    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com
   - title: "API Repo"
     url: https://github.com/redhat-ipaas/ipaas-rest
   - title: "API Staging"
-    url: https://ipaas-api-staging.b6ff.rh-idev.openshiftapps.com
+    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/v1
+  - title: "API Swagger"
+    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/v1/swagger.json
 side:
   - title: Planning & Overview
     children:
       - title: "Roadmap"
         url: /roadmap
-      - title: "Contacts"
-        url: /contacts
+      - title: "Current Sprint"
+        url: /sprint
 
   - title: Design & UX
     children:

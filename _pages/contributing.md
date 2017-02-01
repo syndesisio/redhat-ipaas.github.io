@@ -31,4 +31,4 @@ These are guidelines for consistency and to make everyone's lives easier, but we
 - Screenshots are almost always helpful unless the changes are very minor or if it's just pure code. 
 Use your judgment here. UI changes almost always translate into screenshots being helpful.
  
-If you get stuck at all, don't hesitate to [contact us]('./contacts.md'). Hope this helps!
+If you get stuck at all, don't hesitate to contact us via the mailing list at ipaas-dev@redhat.com. Hope this helps!

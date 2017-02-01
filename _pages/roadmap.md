@@ -3,13 +3,10 @@ permalink: /roadmap/
 title: "Roadmap"
 ---
 
-- **Current Sprint:** 8
-- **Deadline:** February 17, 2017 (Friday)
-- [JIRA Parent Tasks](https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626){:target="_blank"}
-- [JIRA Epic](https://issues.jboss.org/browse/IPAAS-153){:target="_blank"}
-
-
 ## Planning & Requirements
+
+For information about the current sprint, see [Current Sprint](/sprint).
+
 Resources used in planning and developing this project. Please note that many of these documents are outdated, but are being left here for reference in future sprints.
 
 - [Design Prototype](https://projects.invisionapp.com/share/4P84NS9K6#/screens){:target="_blank"}
