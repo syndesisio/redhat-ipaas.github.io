@@ -13,8 +13,6 @@ main:
 side:
   - title: Planning & Overview
     children:
-      - title: "Project Overview"
-        url: /project-overview/
       - title: "Roadmap"
         url: /roadmap
       - title: "Contacts"
