@@ -11,7 +11,7 @@
   "scripts": {
     "build": "bundle exec jekyll build",
     "preinstall": "bundle install",
-    "serve": "bundle exec jekyll serve",
+    "serve": "bundle exec middleman server",
     "start": "npm run serve"
   },
   "repository": {
