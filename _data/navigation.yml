@@ -9,9 +9,9 @@ main:
   - title: "API Repo"
     url: https://github.com/redhat-ipaas/ipaas-rest
   - title: "API Staging"
-    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/v1
+    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1
   - title: "API Swagger"
-    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/v1/swagger.json
+    url: https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1/swagger.json
 side:
   - title: Planning & Overview
     children:
