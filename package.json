@@ -9,7 +9,7 @@
     "gh-pages": "0.12.0"
   },
   "scripts": {
-    "build": "bundle exec jekyll build",
+    "build": "bundle exec middleman build",
     "preinstall": "bundle install",
     "serve": "bundle exec middleman server",
     "start": "npm run serve"
