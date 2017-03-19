@@ -1,0 +1,11 @@
+= Sample Page
+:page-layout: developers
+:uri-asciidoctor: http://asciidoctor.org
+
+This is a sample page composed in AsciiDoc.
+The Middleman AsciiDoc extension converts it to HTML using {uri-asciidoctor}[Asciidoctor].
+
+[source,ruby]
+----
+puts "Hello, World!"
+----

@@ -16,8 +16,9 @@ set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
 # Activate the syntax highlighter
+activate :asciidoc
+activate :directory_indexes
 activate :syntax
-
 activate :sprockets
 
 activate :autoprefixer do |config|
@@ -29,6 +30,9 @@ end
 # Github pages require relative links
 activate :relative_assets
 set :relative_links, true
+
+# Developers Layout
+page "/developers/*", :layout => "developers"
 
 # Build Configuration
 configure :build do
