@@ -1,19 +1,13 @@
-machine:
-  node:
-    version: 7.4.0
-  ruby:
-    version: 2.4.0
+# circle.yml
 
-general:
-  branches:
-    ignore:
-    - gh-pages
+compile:
+  override:
+    - bundle exec middleman build
 
-dependencies:
-  pre:
-  - gem install bundler
-
-checkout:
-  post:
-    - bundle install
-    - bash ./scripts/deploy-ghpages.sh
+deployment:
+  build:
+    branch: master
+    commands:
+      - git config user.email $GIT_USER_EMAIL
+      - git config user.name $GIT_USER_NAME
+      - bundle exec middleman deploy
