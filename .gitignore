@@ -10,7 +10,6 @@ _asset_bundler_cache
 _site/
 _pages
 _data
-build/
 codekit-config.json
 example/_site
 Gemfile.lock
