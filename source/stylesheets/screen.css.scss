@@ -54,51 +54,54 @@ html, body {
 ////////////////////////////////////////////////////////////////////////////////
 // TOP NAVIGATION
 ////////////////////////////////////////////////////////////////////////////////
+
 .navbar {
   position: fixed;
   height: 50px;
-  background: #25497e;
+  background: #000000;
   left: 0;
   top: 0;
   right: 0;
   z-index: 5000;
-}
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  float: left;
-  list-style: none;
-}
-.navbar .navbar-brand {
-  float: left;
-  height: 30px;
-  width: 140px;
-  display: block;
-  margin: 10px 20px;
-  //background-image: url("../images/toshi_logo_full.png");
-  //background-repeat: no-repeat;
-  //background-position: center center;
-  //background-size: 100%;
-  font-size: 0px/0px a;
-  color: transparent;
-  text-shadow: none;
-}
-.navbar ul li {
-  float: left;
-  padding: 17px 0;
-  a {
-    color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-decoration: none;
-    padding: 0 10px;
-    font-size: 14px;
-    opacity: .8;
-    font-weight: 400;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+
+    li {
+      float: left;
+      padding: 17px 0;
+
+      a {
+        color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        padding: 0 10px;
+        font-size: 14px;
+        opacity: .8;
+        font-weight: 400;
+      }
+
+      a:hover {
+        opacity: 1;
+      }
+    }
   }
-  a:hover {
-    opacity: 1;
+
+  .navbar-brand {
+    float: left;
+    height: 30px;
+    width: 140px;
+    display: block;
+    margin: 10px 20px;
+    font-size: 0px/0px a;
+    color: transparent;
+    text-shadow: none;
   }
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // TABLE OF CONTENTS
