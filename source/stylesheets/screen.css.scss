@@ -1,7 +1,7 @@
 @charset "utf-8";
-@import 'normalize';
-@import 'variables';
-@import 'icon-font';
+@import "normalize";
+@import "variables";
+@import "icon-font";
 
 /*
 Copyright 2008-2013 Concur Technologies, Inc.
@@ -35,6 +35,71 @@ html, body {
   -webkit-text-size-adjust: none; /* Never autoresize text */
 }
 
+.announcement {
+  min-height: 50px;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(15, 31, 56);
+  z-index: 100;
+  color: #C6CEDD;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// TOP NAVIGATION
+////////////////////////////////////////////////////////////////////////////////
+.navbar {
+  position: fixed;
+  height: 50px;
+  background: #25497e;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+.navbar .navbar-brand {
+  float: left;
+  height: 30px;
+  width: 140px;
+  display: block;
+  margin: 10px 20px;
+  //background-image: url("../images/toshi_logo_full.png");
+  //background-repeat: no-repeat;
+  //background-position: center center;
+  //background-size: 100%;
+  font-size: 0px/0px a;
+  color: transparent;
+  text-shadow: none;
+}
+.navbar ul li {
+  float: left;
+  padding: 17px 0;
+  a {
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+    opacity: .8;
+    font-weight: 400;
+  }
+  a:hover {
+    opacity: 1;
+  }
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 // TABLE OF CONTENTS
 ////////////////////////////////////////////////////////////////////////////////
@@ -57,12 +122,12 @@ html, body {
 
 .tocify-wrapper {
   transition: left 0.3s ease-in-out;
-
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
   z-index: 30;
-  top: 0;
+  //top: 0;
+  top: 50px;
   left: 0;
   bottom: 0;
   width: $nav-width;
@@ -173,7 +238,7 @@ html, body {
 
   // This is the currently selected ToC entry
   .tocify-focus {
-    box-shadow: 0px 1px 0px $nav-active-shadow;
+    box-shadow: 0 1px 0 $nav-active-shadow;
     background-color: $nav-active-bg;
     color: $nav-active-text;
   }
@@ -230,17 +295,22 @@ html, body {
     transform: rotate(-90deg) translate(-100%, 0);
     border-radius: 0 0 0 5px;
   }
+
   padding: 0 1.5em 5em 0; // increase touch size area
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  //z-index: 100;
+  //left: 100% !important;
+  //margin-left: -60px;
+  z-index: 5000;
   color: #000;
   text-decoration: none;
   font-weight: bold;
   opacity: 0.7;
   line-height: 16px;
+
   img {
     height: 16px;
     vertical-align: bottom;
@@ -263,6 +333,7 @@ html, body {
   z-index: 10;
   background-color: $main-bg;
   min-height: 100%;
+  margin-top: 50px;
 
   padding-bottom: 1px; // prevent margin overflow
 
@@ -616,12 +687,4 @@ html, body {
   %right-col + %left-col {
     margin-top: $main-padding;
   }
-}
-
-.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
-  color: #909090;
-}
-
-.highlight, .highlight .w {
-  background-color: $code-bg;
 }

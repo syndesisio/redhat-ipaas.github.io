@@ -1,3 +1,5 @@
+require './source/lib/redcarpet_header_fix'
+
 # Markdown
 set :markdown_engine, :redcarpet
 set :markdown,
