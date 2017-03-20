@@ -2,10 +2,14 @@
 title: Developers
 
 language_tabs:
-  - designs
-  - ui
-  - api
-  - backend
+  - shell: cURL
+  - ruby: Ruby
+  - python: Python
+  - csharp: C#
+  - php: PHP
+  - java: Java
+  - javascript: NodeJS
+  - go: Go
 
 toc_footers:
   - <a href='#'>UI Staging</a>

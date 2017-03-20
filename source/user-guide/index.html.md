@@ -2,14 +2,12 @@
 title: User Guide
 
 language_tabs:
-  - designs
-  - ui
-  - api
-  - backend
+  - Designs
+  - UI
+  - API
+  - Backend
 
 toc_footers:
-  - <a href='#'>UI Staging</a>
-  - <a href=''>API Staging</a>
   - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
 
 search: true

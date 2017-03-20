@@ -1,0 +1,29 @@
+body.index {
+
+
+  .content > h1, .content > h2, .content > h3, .content > h4, .content > h5, .content > h6, .content > p, .content > table, .content > ul, .content > ol, .content > aside, .content > dl {
+    margin-right: 0;
+    padding: 0 28px;
+    box-sizing: border-box;
+    display: block;
+    text-shadow: 0 1px 0 #fff;
+  }
+
+  .content pre, .content blockquote {
+    background-color: #292929;
+    color: #fff;
+    padding: 2em 28px;
+    margin: 0;
+    width: 100%;
+    float: none;
+    clear: right;
+    box-sizing: border-box;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  .content code, .content pre {
+    font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
