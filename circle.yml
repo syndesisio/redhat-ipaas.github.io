@@ -3,9 +3,6 @@ machine:
     version: 7.4.0
   ruby:
     version: 2.4.0
-  environment:
-    YARN_VERSION: 0.19.1
-    PATH: "${PATH}:${HOME}/.yarn/bin:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 
 general:
   branches:
@@ -14,22 +11,9 @@ general:
 
 dependencies:
   pre:
-  - |
-    if [[ ! -e ~/.yarn/bin/yarn || $(yarn --version) != "${YARN_VERSION}" ]]; then
-      curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
-    fi
-  override:
-  - yarn install --no-progress
-  cache_directories:
-  - ~/.yarn
-  - ~/.cache/yarn
+  - gem install bundler
 
-test:
-  override:
-  - yarn build
-
-deployment:
-  staging:
-    branch: master
-    commands:
-      - ./scripts/deploy-ghpages.sh _site
+checkout:
+  post:
+    - bundle install
+    - bash ./scripts/deploy-ghpages.sh
