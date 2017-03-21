@@ -4,6 +4,10 @@ compile:
   override:
     - bundle exec middleman build
 
+dependencies:
+  pre:
+    - bundle install
+
 deployment:
   build:
     branch: master
