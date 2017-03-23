@@ -1,0 +1,89 @@
+<p><em>Last Updated: January 18, 2017</em></p>
+<h2 id='designs-amp-prototype'>Designs &amp; Prototype</h2>
+<p>We are using <a href="https://www.invisionapp.com/">InVision</a>{:target=&ldquo;_blank&rdquo;} to host prototypes, which consist of click-thru designs that the Presentation Layer is based off of. Please click on the dialpad button on the bottom right-hand corner to view all designs.</p>
+
+<p><strong>Planning and Workflows</strong></p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/HB9OF7IKZ">iPaaS UX Planning</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='homepage-amp-dashboard'>Homepage &amp; Dashboard</h3>
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/YJ9P16RC8">Dashboard v7 (Empty)</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/6X9P1BECQ">Dashboard v7</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='connections'>Connections</h3>
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/ZQ9OF7V5Y">Connection Library</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/RS9OFJ9YK">Create a Connection: Step 1</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/9E9OFJDX3">Create a Connection: Step 2 (Empty State)</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/C29OFJJH8">Create a Connection: Step 2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/UK9OFJOMN">Create a Connection: Step 2 (Validation)</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/BM9OFJSUD">Create a Connection: Step 3</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/BZ9OFK1RQ">Connection Details</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='integrations'>Integrations</h3>
+<p>Integration List:</p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/HZ9OFKOGQ">Integration: Empty</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/6R9OFKV57">Integration Filter</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/2Q9OFL09P">Integration List</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+
+<p>Create an Integration:</p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/259377QCA">Integration Visualization Proposal V3</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/UT929SIR8">Homepage Action Button</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/7Q9OFLLNM">Homepage Action Button Dropped Down</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/XQ9OFLR4E">From Template</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/3994CEWT6">From Scratch</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/HW9OF54BQ">Edit Connection</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/AP9OFO06E">Validate Connection</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/P99OFO3YZ">Close Integration</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/SD9OFO8MP">Edit End Connection</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/TS9OFOBY5">Add a Step</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/D7946D0VA">Data Transformation</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/8W9OFOHCV">Step 9</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/VJ9OF59B3">Step 10</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/VT9OF5C9N">Success</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/C79OF5GJF">Help</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='templates'>Templates</h3>
+<p>Template List:</p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/4R9OFP3YU">Template2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/MA9OFP9CP">Filter</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/TY9OFPFDJ">Empty</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='guided-tour'>Guided Tour</h3>
+<p>Post MVP.</p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/7Q9OFRJ5K">Welcome V2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/639OFRRVB">Step 2 V2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/DU9OFS58K">Success V2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/9M9OFSD43">Add Step 4 B1</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h3 id='child-integration-variants'>Child Integration Variants</h3>
+<p>Draft.</p>
+
+<ul>
+<li><a href="https://redhat.invisionapp.com/share/QN9OFSNB9">Child Integration 1</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/PH9EMGF58">Child Integration 2</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/EW9EMJAUD">Child Integration 3</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://redhat.invisionapp.com/share/FN9EMJPSJ">Child Integration 4</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
+<h2 id='implementation'>Implementation</h2>
+<p>We are using <a href="https://www.patternfly.org/">PatternFly</a>{:target=&ldquo;<em>blank&rdquo;} for consistency across UIs in Red Hat and to make design implementation easier. As of 12/09/2016, PatternFly does not support Angular 2 out of the box, so we cannot use <a href="https://github.com/patternfly/angular-patternfly">angular-patternfly</a>{:target=&ldquo;</em>blank&rdquo;} and instead need to use <a href="https://github.com/ng-bootstrap/ng-bootstrap">ng-bootstrap</a>{:target=&ldquo;_blank&rdquo;} for now.</p>
+
+<ul>
+<li><a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://github.com/ng-bootstrap/ng-bootstrap">ng-bootstrap</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://www.patternfly.org/">PatternFly</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://www.patternfly.org/pattern-library/navigation/vertical-navigation/vertical-navigation-without-icons.html#_">PatternFly Vertical Navigation w/ Persistent Secondary (No Icons)</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://github.com/webpack/webpack">webpack</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://github.com/AngularClass/webpack-toolkit">webpack-toolkit</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>

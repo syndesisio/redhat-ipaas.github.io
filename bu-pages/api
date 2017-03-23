@@ -1,0 +1,7 @@
+<p>For more information about the API, please see the GitHub repository <a href="https://github.com/redhat-ipaas/ipaas-rest">here</a>{:target=&ldquo;_blank&rdquo;}.</p>
+<h2 id='resources'>Resources</h2>
+<ul>
+<li><a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1/swagger.json">API Swagger Spec</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://github.com/redhat-ipaas/ipaas-rest">GitHub Repository</a>{:target=&ldquo;_blank&rdquo;}</li>
+<li><a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1">Live Staging</a>{:target=&ldquo;_blank&rdquo;}</li>
+</ul>
