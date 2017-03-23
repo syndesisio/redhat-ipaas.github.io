@@ -14,7 +14,7 @@ language_tabs:
 toc_footers:
   - <a href='#'>UI Staging</a>
   - <a href=''>API Staging</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 search: true
 ---

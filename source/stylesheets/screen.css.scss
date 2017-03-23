@@ -83,12 +83,13 @@ html, body {
 
       a {
         color: #fff;
+        cursor: pointer;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-decoration: none;
-        padding: 10px;
         font-size: 14px;
-        opacity: .8;
         font-weight: 400;
+        opacity: .8;
+        padding: 16px;
+        text-decoration: none;
       }
 
       a:hover {

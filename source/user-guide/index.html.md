@@ -8,7 +8,7 @@ language_tabs:
   - Backend
 
 toc_footers:
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 search: true
 ---
