@@ -1,17 +1,6 @@
 # Red Hat iPaaS
 
-The official page for Red Hat iPaaS, with quick links to important places relevant to the project.
-
-Click <a href="https://github.com/redhat-ipaas" target="_blank" rel="nofollow">here</a> for the Red Hat iPaaS GitHub organization.
-
-## UI
-- <a href="https://github.com/redhat-ipaas/ipaas-ui" target="_blank" rel="nofollow">GitHub Repository</a>
-- <a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/" target="_blank" rel="nofollow">Live Staging</a>
-
-## API
-- <a href="https://github.com/redhat-ipaas/ipaas-rest" target="_blank" rel="nofollow">GitHub Repository</a>
-- <a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1" target="_blank" rel="nofollow">Live Staging</a>
-- <a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1/swagger.json" target="_blank" rel="nofollow">Swagger Spec</a>
+The GitHub repository for the Red Hat iPaaS website, where you'll find a User Guide, Developer Guide with documentation, and any relevant information about the project.
 
 ## Contributing
 
@@ -19,17 +8,17 @@ If you want to contribute to this repository, please fork it first and clone tha
 
 ```
 gem install jekyll bundler
-bundle exec jekyll serve
+bundle exec middleman server
 ```
 
 You should be able to see the Red Hat iPaaS website in your browser on `http://localhost:4000`.
 
 ### Building & Deploying to GitHub Pages
-The build and deploy process is as follows:
+We currently use [middleman-deploy](https://github.com/middleman-contrib/middleman-deploy) to deploy the iPaaS website. The build and deploy process is as follows:
 
 1. Developer commits their contributions to the `redhat-ipaas.github.io` repository that they have cloned to their desktop.
-2. Developer pushes their changes to the `master` branch.
+2. `git checkout -b source` to create a `source` branch. We cannot work from the default `master` branch as that is what serves our built files.
 3. A GitHub hook initiates a call to <a href="https://circleci.com/gh/redhat-ipaas/redhat-ipaas.github.io" target="_blank" rel="nofollow">CircleCI</a> to trigger a build.
 4. CircleCI uses the `circle.yml` file to determine how to build the project.
-5. In the case of our `circle.yml` file, Yarn installs dependencies and uses <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> to build the <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a> website. Finally, it runs the `./scripts/deploy-ghpages.sh` script, which creates a `gh-pages` branch and copies the static files from `master` to it.
-6. GitHub serves the `gh-pages` branch's static HTML to the public via <a href="https://redhat-ipaas.github.io/" target="_blank" rel="nofollow">https://redhat-ipaas.github.io/</a>.
+5. In the case of our `circle.yml` file, <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installs dependencies, such as <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and middleman-deploy. Finally, it runs `bundle exec middleman deploy`, which builds the files from the `source` branch and copies them to the `master` branch.
+6. GitHub serves the `master` branch's static HTML to the public via <a href="https://redhat-ipaas.github.io/" target="_blank" rel="nofollow">https://redhat-ipaas.github.io/</a>.
