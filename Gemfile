@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "middleman", "~>4.1.0"
 gem "middleman-asciidoc"
 gem "middleman-autoprefixer", "~> 2.7.0"
-gem 'middleman-deploy', '~> 1.0'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 #gem "middleman-gh-pages"
 gem "middleman-sprockets", "~> 4.0.0"
 gem "middleman-syntax"
