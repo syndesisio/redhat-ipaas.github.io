@@ -21,8 +21,10 @@ under the License.
 // Use these settings to help adjust the appearance of Slate
 
 
+////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLORS
-////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
 $nav-bg: #393939 !default;
 $examples-bg: #393939 !default;
 $code-bg: #292929 !default;
@@ -40,8 +42,10 @@ $aside-success-bg: #6ac174 !default;
 $search-notice-bg: #c97a7e !default;
 
 
+////////////////////////////////////////////////////////////////////////////////
 // TEXT COLORS
-////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
 $main-text: #333 !default; // main content text color
 $nav-text: #fff !default;
 $nav-active-text: #fff !default;
@@ -50,8 +54,10 @@ $lang-select-active-text: #fff !default; // color of selected language tab text
 $lang-select-pressed-text: #fff !default; // color of language tab text when mouse is pressed
 
 
+////////////////////////////////////////////////////////////////////////////////
 // SIZES
-////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
 $nav-width: 230px !default; // width of the navbar
 $examples-width: 50% !default; // portion of the screen taken up by code examples
 $logo-margin: 20px !default; // margin between nav items and logo, ignored if search is active
@@ -65,8 +71,10 @@ $tablet-width: 930px !default; // min width before reverting to tablet size
 $phone-width: $tablet-width - $nav-width !default; // min width before reverting to mobile size
 
 
+////////////////////////////////////////////////////////////////////////////////
 // FONTS
-////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
 %default-font {
   font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
   font-size: 13px;
@@ -84,8 +92,10 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 }
 
 
+////////////////////////////////////////////////////////////////////////////////
 // OTHER
-////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
 $nav-active-shadow: #000 !default;
 $nav-footer-border-color: #666 !default;
 $nav-embossed-border-top: #000 !default;
