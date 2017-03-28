@@ -109,7 +109,12 @@
           <li><a href="/users">Users</a></li>
           <li><a href="/developers">Developers</a></li>
           <li><a href="/api-docs">API Docs</a></li>
-          <li><a href="https://www.github.com/redhat-ipaas/">GitHub</a>
+          <li><a href="https://www.github.com/redhat-ipaas/" target="_blank" rel="nofollow">GitHub</a>
+          <li><a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/" target="_blank" rel="nofollow">UI Staging</a>
+          <li><a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1" target="_blank" rel="nofollow">API Staging</a>
+          <li><a href="https://ipaas-staging.b6ff.rh-idev.openshiftapps.com/api/v1/swagger.json" target="_blank" rel="nofollow">Swagger</a>
+          <li><a href="https://circleci.com/gh/redhat-ipaas" target="_blank" rel="nofollow">CircleCI</a>
+          <li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -136,53 +141,21 @@
     </div>
     <div class="page-wrapper">
       <div class="content">
-        <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
-
-<p>We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
-
-<p>This example API documentation page was created with <a href="https://github.com/lord/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&rsquo;s documentation.</p>
+        <h1 id='overview'>Overview</h1>
+<p>Welcome to the iPaaS website!</p>
 <h1 id='authentication'>Authentication</h1>
-<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p>You must grant the iPaaS application the proper permissions via OpenShift.</p>
 
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="/developers">developer portal</a>.</p>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2>
-<p>This endpoint retrieves all kittens.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p>Maecenas faucibus mollis interdum.</p>
-<h3 id='query-parameters'>Query Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
-</tr>
-<tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
-</tr>
-</tbody></table>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><h3 id='http-request'>HTTP Request</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
-<h3 id='url-parameters'>URL Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>ID</td>
-<td>The ID of the kitten to retrieve</td>
-</tr>
-</tbody></table>
+<ol>
+<li>When you first land on the application website you will be prompted to provide things like your name and email address.</li>
+<li>You are redirected to GitHub to allow permissions.</li>
+</ol>
+<h1 id='roadmap'>Roadmap</h1><h2 id='current-sprint-10'>Current Sprint: 10</h2>
+<p>Ends: March 31, 2017 (Fri)</p>
+
+<p><a href="https://issues.jboss.org/browse/IPAAS-251" rel="nofollow" target="_blank">JIRA Narrative</a></p>
+
+<p><a href="https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626" rel="nofollow" target="_blank">JIRA Issues</a></p>
 
           <h1 id='test'>Test</h1>
 <p>The Kittn API uses the following error codes:</p>
