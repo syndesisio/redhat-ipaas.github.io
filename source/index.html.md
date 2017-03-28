@@ -27,7 +27,7 @@ You must grant the iPaaS application the proper permissions via OpenShift.
 
 Ends: March 31, 2017 (Fri)
 
-[JIRA Narrative](https://issues.jboss.org/browse/IPAAS-251)
+<a href="https://issues.jboss.org/browse/IPAAS-251" rel="nofollow" target="_blank">JIRA Narrative</a>
 
-[JIRA Issues](https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626)
+<a href="https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626" rel="nofollow" target="_blank">JIRA Issues</a>
 
