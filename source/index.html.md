@@ -10,46 +10,24 @@ includes:
 search: true
 ---
 
-# Introduction
+# Overview
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
-
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
+Welcome to the iPaaS website!
 
 # Authentication
 
-Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+You must grant the iPaaS application the proper permissions via OpenShift.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](/developers).
+1. When you first land on the application website you will be prompted to provide things like your name and email address.
+2. You are redirected to GitHub to allow permissions.
 
-# Kittens
+# Roadmap
 
-## Get All Kittens
+## Current Sprint: 10
 
-This endpoint retrieves all kittens.
+Ends: March 31, 2017 (Fri)
 
-### HTTP Request
+[JIRA Narrative](https://issues.jboss.org/browse/IPAAS-251)
 
-Maecenas faucibus mollis interdum.
-
-### Query Parameters
-
-Parameter | Default | Description
---------- | ------- | -----------
-include_cats | false | If set to true, the result will also include cats.
-available | true | If set to false, the result will include kittens that have already been adopted.
-
-## Get a Specific Kitten
-
-### HTTP Request
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.
-
-### URL Parameters
-
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to retrieve
+[JIRA Issues](https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626)
 
