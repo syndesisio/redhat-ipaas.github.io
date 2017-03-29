@@ -1,0 +1,9 @@
+= Connectinos
+:page-layout: developers
+
+Information about Connections and how to use them.
+
+[source,ruby]
+----
+puts "Hello, World!"
+----

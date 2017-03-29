@@ -1,0 +1,4 @@
+= Integrations
+:page-layout: users
+
+A page about Integrations and how to use them.

@@ -1,0 +1,4 @@
+= Templates
+:page-layout: users
+
+A page about Templates and how to use them.
