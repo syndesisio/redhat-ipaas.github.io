@@ -1,12 +1,17 @@
 # circle.yml
 
-compile:
-  override:
-    - bundle exec middleman build
+machine:
+  ruby:
+    version: 2.3.1
 
 dependencies:
   pre:
+    - gem install bundler
     - bundle install
+
+compile:
+  override:
+    - bundle exec middleman build
 
 deployment:
   build:
