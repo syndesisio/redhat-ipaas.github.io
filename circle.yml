@@ -7,6 +7,7 @@ machine:
 dependencies:
   pre:
     - gem install bundler
+    - gem install middleman-cli
     - bundle install
 
 compile:
