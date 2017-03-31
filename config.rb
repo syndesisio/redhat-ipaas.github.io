@@ -34,7 +34,9 @@ activate :relative_assets
 set :relative_links, true
 
 # Developers Layout
+page "/api-docs/*", :layout => "api-docs"
 page "/developers/*", :layout => "developers"
+page "/users/*", :layout => "users"
 
 # Build Configuration
 configure :build do
