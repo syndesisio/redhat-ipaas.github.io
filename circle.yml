@@ -1,9 +1,5 @@
 # circle.yml
 
-machine:
-  ruby:
-    version: 2.3.1
-
 dependencies:
   pre:
     - gem install bundler
