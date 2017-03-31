@@ -1,9 +1,0 @@
-= Admin
-:page-layout: developers
-
-The user guide for the Admin section.
-
-[source,ruby]
-----
-puts "Hello, World!"
-----

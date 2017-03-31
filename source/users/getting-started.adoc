@@ -1,4 +1,0 @@
-= Getting Started
-:page-layout: users
-
-This will be a Getting Started guide for users.

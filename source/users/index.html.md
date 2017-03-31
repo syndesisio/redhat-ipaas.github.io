@@ -1,24 +1,16 @@
 ---
 title: Users
 
-language_tabs:
-  - c: cURL
-  - typescript: NodeJS
-
-toc_footers:
-  - <a href='#'>UI Staging</a>
-  - <a href=''>API Staging</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 search: true
 ---
 
-# One
+# Getting Started
 
 A test using the User Guide layout.
 
 
-# Two
+# Connections
 
 Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
@@ -26,13 +18,13 @@ We have language bindings in Shell, Ruby, and Python! You can view code examples
 
 This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
-# Three
+# Integrations
 
 Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper.
 
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 
-# Four
+# Templates
 
 > To authorize, use this code:
 
@@ -60,7 +52,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Five
+# Admin
 
 ## Test
 
