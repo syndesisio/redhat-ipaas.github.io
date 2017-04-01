@@ -3,7 +3,10 @@
 dependencies:
   pre:
     - gem install bundler
-    - gem install middleman
+    - gem install middleman-cli
+
+checkout:
+  post:
     - bundle install
 
 compile:
