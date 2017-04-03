@@ -33,7 +33,7 @@ end
 activate :relative_assets
 set :relative_links, true
 
-# Developers Layout
+# Layouts
 page "/api-docs/*", :layout => "api-docs"
 page "/developers/*", :layout => "developers"
 page "/users/*", :layout => "users"
