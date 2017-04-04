@@ -1,10 +1,6 @@
 ---
 title: API Reference
 
-toc_footers:
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
-
-
 search: true
 ---
 
@@ -21,11 +17,13 @@ You must grant the iPaaS application the proper permissions via OpenShift.
 
 # Roadmap
 
-## Current Sprint: 10
+## Current Sprint: 11
 
+<!--
 Ends: March 31, 2017 (Fri)
+-->
 
-<a href="https://issues.jboss.org/browse/IPAAS-251" rel="nofollow" target="_blank">JIRA Narrative</a>
+<a href="https://issues.jboss.org/browse/IPAAS-284" rel="nofollow" target="_blank">JIRA Narrative</a>
 
 <a href="https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626" rel="nofollow" target="_blank">JIRA Issues</a>
 
