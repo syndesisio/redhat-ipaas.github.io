@@ -1,5 +1,3 @@
-require './source/lib/redcarpet_header_fix'
-
 # Markdown
 set :markdown_engine, :redcarpet
 set :markdown,
@@ -25,7 +23,6 @@ end
 
 activate :asciidoc
 activate :directory_indexes
-activate :syntax
 activate :sprockets
 
 activate :autoprefixer do |config|
