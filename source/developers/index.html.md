@@ -16,10 +16,11 @@ search: true
 
 # Introduction
 
-This guide assumes that you are a developer, or possible contributor of iPaaS, and that you will be running the UI locally. It is up to you to also choose to run the API locally as well. If you are simply looking for a guide to teach you the ins and outs of iPaaS and how to use it, please refer to the User Guide.
+This guide assumes that you are either a developer or contributor of iPaaS. If you are looking for a guide to teach you the ins and outs of iPaaS and how to use it, please refer to the <a href="/users" rel="nofollow">User Guide</a>.
 
 # Architecture
 
+Coming soon.
 
 # Getting Started
 
@@ -80,8 +81,28 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut ferm
 
 ### If you'll be using the staging API
 
+Coming soon.
+
 ### If you've set up the API locally
 
+Coming soon.
+
+
+# Models
+
+## Connections
+
+## Integrations
+
+## Tags
+
+## Templates
+
+## Users
+
+# Tests
+
+# Contributing
 
 # Kittens
 
@@ -204,20 +225,4 @@ This endpoint retrieves a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to retrieve
-
-
-# Models
-
-## Connections
-
-## Integrations
-
-## Tags
-
-## Templates
-
-## Users
-
-# Contributing
-
 
