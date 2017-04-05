@@ -2,40 +2,40 @@
 title: Developers
 
 language_tabs:
-  - shell: cURL
-  - ruby: Ruby
-  - python: Python
-  - csharp: C#
-  - php: PHP
-  - java: Java
-  - javascript: NodeJS
-  - go: Go
+  - shell: UXD
+  - ruby: UI
+  - python: Backend
+  - csharp: QE
+  - php: Support
+  - java: Resources
+  - javascript: Planning
+  - go: Notes
 
 search: true
 ---
 
 # Introduction
 
-A test using the Developers layout.
+This guide assumes that you are a developer, or possible contributor of iPaaS, and that you will be running the UI locally. It is up to you to also choose to run the API locally as well. If you are simply looking for a guide to teach you the ins and outs of iPaaS and how to use it, please refer to the User Guide.
+
+# Architecture
 
 
-# Running the API
+# Getting Started
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+## API
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+The API can be run locally or you can use the staging API. If you'll strictly be working on the UI, or just want to get the app running as quickly as possible, we recommend using the API staging server rather than running it locally. 
 
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+### Running the API Locally
 
-# Running the UI
+Instructions here.
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper.
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+### Authentication
 
-# Authentication
+>  To authorize via the UI, simply access it in your browser, where you'll be redirected to an OpenShift login/registration page where you are prompted for your name, email address, etc. You'll then be redirected to a  GitHub permissions page. You'll be prompted to grant OpenShift the proper permissions. Once you accept, you'll finally be granted access to the UI. You should only need to do this once. 
 
-> To authorize, use this code:
 
 ```ruby
 <img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
@@ -70,6 +70,18 @@ Kittn expects for the API key to be included in all API requests to the server i
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
+
+
+## Running the UI
+
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper.
+
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+### If you'll be using the staging API
+
+### If you've set up the API locally
+
 
 # Kittens
 
@@ -192,4 +204,20 @@ This endpoint retrieves a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to retrieve
+
+
+# Models
+
+## Connections
+
+## Integrations
+
+## Tags
+
+## Templates
+
+## Users
+
+# Contributing
+
 

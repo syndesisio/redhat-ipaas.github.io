@@ -12,8 +12,6 @@ language_tabs:
   - go: Go
 
 toc_footers:
-  - <a href='#'>UI Staging</a>
-  - <a href=''>API Staging</a>
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 search: true
@@ -21,26 +19,25 @@ search: true
 
 # Introduction
 
-A test using the API Docs layout. This will eventually be generated automatically using the API's Swagger JSON file (from staging).
+This will eventually be generated automatically using the API's Swagger JSON file (from staging).
 
 
-# Running the API
+# Using the API
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+The API can be run locally or you can use the staging API.
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+## Running the API Locally
 
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+## Setting up the UI
 
-# Running the UI
+### If you'll be using the staging API
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper.
+### If you've set up the API locally
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 
 # Authentication
 
-> To authorize, use this code:
+> To authorize via the UI, simply access it in your browser, where you'll be redirected to an OpenShift login/registration page where you are prompted for your name, email address, etc. You'll then be redirected to a  GitHub permissions page. You'll be prompted to grant OpenShift the proper permissions. Once you accept, you'll finally be granted access to the UI. You should only need to do this once. 
 
 ```ruby
 require 'kittn'
@@ -78,7 +75,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# Connections
 
 ## Get All Kittens
 
@@ -146,7 +143,9 @@ available | true | If set to false, the result will include kittens that have al
 Remember — a happy kitten is an authenticated kitten!
 </aside>
 
-## Get a Specific Kitten
+# Connectors
+
+# Integrations
 
 ```ruby
 require 'kittn'
@@ -200,3 +199,6 @@ Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to retrieve
 
+# Tags
+# Templates
+# Users
