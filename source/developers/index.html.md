@@ -102,7 +102,24 @@ Coming soon.
 
 # Tests
 
+## E2E Tests
+
+Points of Contact: 
+
+[Happy Path](https://issues.jboss.org/browse/IPAAS-285) for E2E Tests
+
+
+## Unit Tests
+
+We are very behind on unit tests.
+
+
 # Contributing
+
+## UI
+
+We have a [Style Guide]() for the UI that can be found [here](). In addition, we follow the [official Angular 2 Style Guide]() when possible.
+
 
 # Kittens
 
