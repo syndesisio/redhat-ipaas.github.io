@@ -2,7 +2,8 @@
 title: Developers
 
 language_tabs:
-  - shell: UXD
+  - shell: Design
+  - c: UX
   - ruby: UI
   - python: Backend
   - csharp: QE
