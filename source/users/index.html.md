@@ -93,9 +93,10 @@ let kittens = api.kittens.get();
 
 This endpoint retrieves all kittens.
 
-### Test
+# Feedback
 
-`GET http://example.com/api/kittens`
+We are always interested in your feedback! Don't hesitate to shoot us an email to ipaas-dev@redhat.com with any questions, bug reports, or feedback.
+
 
 ### Test
 

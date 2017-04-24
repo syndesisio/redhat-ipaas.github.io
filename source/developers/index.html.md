@@ -2,7 +2,7 @@
 title: Developers
 
 language_tabs:
-  - shell: Design
+  - design: Design
   - c: UX
   - ruby: UI
   - python: Backend
@@ -10,7 +10,7 @@ language_tabs:
   - php: Support
   - java: Resources
   - javascript: Planning
-  - go: Notes
+  - shell: Notes
 
 search: true
 ---
@@ -22,6 +22,10 @@ This guide assumes that you are either a developer or contributor of iPaaS. If y
 # Architecture
 
 Coming soon.
+
+<blockquote class="lang-specific ruby shell">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</blockquote>
 
 # Getting Started
 
@@ -39,7 +43,7 @@ Instructions here.
 >  To authorize via the UI, simply access it in your browser, where you'll be redirected to an OpenShift login/registration page where you are prompted for your name, email address, etc. You'll then be redirected to a  GitHub permissions page. You'll be prompted to grant OpenShift the proper permissions. Once you accept, you'll finally be granted access to the UI. You should only need to do this once. 
 
 
-```ruby
+```design
 <img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
 ```
 
@@ -89,15 +93,25 @@ Coming soon.
 Coming soon.
 
 
-# Models
+# Pages
 
 ## Connections
 
+### Create Connection
+
 ## Integrations
+
+### Integration List
+
+### Create Integration
 
 ## Tags
 
+### Create Tag
+
 ## Templates
+
+### Create Tag
 
 ## Users
 
