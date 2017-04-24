@@ -2,15 +2,15 @@
 title: Developers
 
 language_tabs:
-  - design: Design
-  - c: UX
-  - ruby: UI
-  - python: Backend
-  - csharp: QE
-  - php: Support
-  - java: Resources
-  - javascript: Planning
-  - shell: Notes
+  - shell: Design
+  - ruby: UX
+  - python: UI
+  - csharp: Backend
+  - php: QE
+  - java: Support
+  - javascript: Resources
+  - go: Planning
+  - c: Notes
 
 search: true
 ---
@@ -23,9 +23,18 @@ This guide assumes that you are either a developer or contributor of iPaaS. If y
 
 Coming soon.
 
-<blockquote class="lang-specific ruby shell">
+<blockquote class="lang-specific ui qe notes">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </blockquote>
+
+<blockquote class="lang-specific design">
+<img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
+</blockquote>
+
+```ruby
+UX
+<img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
+```
 
 # Getting Started
 
@@ -43,23 +52,27 @@ Instructions here.
 >  To authorize via the UI, simply access it in your browser, where you'll be redirected to an OpenShift login/registration page where you are prompted for your name, email address, etc. You'll then be redirected to a  GitHub permissions page. You'll be prompted to grant OpenShift the proper permissions. Once you accept, you'll finally be granted access to the UI. You should only need to do this once. 
 
 
-```design
+```python
+Design
 <img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
 ```
 
-```python
+```csharp
+Backend
 import kittn
 
 api = kittn.authorize('meowmeowmeow')
 ```
 
-```shell
+```php
+QE
 # With shell, you can just pass the correct header with each request
 curl "api_endpoint_here"
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
+```c
+Notes
 const kittn = require('kittn');
 
 let api = kittn.authorize('meowmeowmeow');
@@ -140,26 +153,30 @@ We have a [Style Guide]() for the UI that can be found [here](). In addition, we
 
 ## Get All Kittens
 
-```ruby
+```php
+QE
 require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
 api.kittens.get
 ```
 
-```python
+```ruby
+Notes
 import kittn
 
 api = kittn.authorize('meowmeowmeow')
 api.kittens.get()
 ```
 
-```shell
+```java
+Backend
 curl "http://example.com/api/kittens"
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
+```csharp
+Design
 const kittn = require('kittn');
 
 let api = kittn.authorize('meowmeowmeow');
@@ -168,7 +185,8 @@ let kittens = api.kittens.get();
 
 > The above command returns JSON structured like this:
 
-```json
+```ruby
+UX
 [
   {
     "id": 1,
@@ -206,7 +224,8 @@ Remember — a happy kitten is an authenticated kitten!
 
 ## Get a Specific Kitten
 
-```ruby
+```c
+UI
 require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
@@ -214,18 +233,21 @@ api.kittens.get(2)
 ```
 
 ```python
+UX
 import kittn
 
 api = kittn.authorize('meowmeowmeow')
 api.kittens.get(2)
 ```
 
-```shell
+```javascript
+Design
 curl "http://example.com/api/kittens/2"
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
+```python
+Notes
 const kittn = require('kittn');
 
 let api = kittn.authorize('meowmeowmeow');
@@ -234,7 +256,8 @@ let max = api.kittens.get(2);
 
 > The above command returns JSON structured like this:
 
-```json
+```python
+Notes
 {
   "id": 2,
   "name": "Max",
