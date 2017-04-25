@@ -1,16 +1,16 @@
 ---
 title: Developers
 
-language_tabs:
-  - shell: Design
-  - ruby: UX
-  - python: UI
-  - csharp: Backend
-  - php: QE
-  - java: Support
-  - javascript: Resources
-  - go: Planning
-  - c: Notes
+area_tabs:
+  - design: Design
+  - ux: UX
+  - ui: UI
+  - backend: Backend
+  - qe: QE
+  - support: Support
+  - resources: Resources
+  - planning: Planning
+  - notes: Notes
 
 search: true
 ---
@@ -19,20 +19,42 @@ search: true
 
 This guide assumes that you are either a developer or contributor of iPaaS. If you are looking for a guide to teach you the ins and outs of iPaaS and how to use it, please refer to the <a href="/users" rel="nofollow">User Guide</a>.
 
+
+<blockquote class="area-specific design">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</blockquote>
+
+<blockquote class="area-specific qe">
+QE
+</blockquote>
+
+<blockquote class="area-specific design">
+Design
+</blockquote>
+
+<blockquote class="area-specific backend">
+</blockquote>
+
+```backend
+Backend
+```
+
+
 # Architecture
 
 Coming soon.
 
-<blockquote class="lang-specific ui qe notes">
+<blockquote class="area-specific ui qe notes">
+UI
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </blockquote>
 
-<blockquote class="lang-specific design">
+<blockquote class="area-specific design">
 <img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
 </blockquote>
 
 ```ruby
-UX
+UX 2
 <img src="https://cloud.githubusercontent.com/assets/3844502/24225759/9d8ebdd6-0f38-11e7-8c76-8d6ce48dda5f.jpg">
 ```
 

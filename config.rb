@@ -21,6 +21,7 @@ set :fonts_dir, 'fonts'
 activate :syntax
 ready do
   require './lib/multilang.rb'
+  require './lib/tabs.rb'
 end
 
 activate :asciidoc

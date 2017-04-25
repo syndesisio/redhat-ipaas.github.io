@@ -17,7 +17,7 @@ You must grant the iPaaS application the proper permissions via OpenShift.
 
 # Roadmap
 
-## Current Sprint: 11
+## Current Sprint: 12
 
 
 # Contacts
@@ -42,8 +42,8 @@ Thanks to everyone for your continued hard work!
 
 <a href="https://issues.jboss.org/browse/IPAAS-299?jql=labels%20%3D%20Keynote" rel="nofollow" target="_blank">JIRA Issues for Keynote</a>
 
-<!--
-Ends: March 31, 2017 (Fri)
+Ends: May 12, 2017 (Fri)
 
+<!--
 <a href="https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3626" rel="nofollow" target="_blank">JIRA Issues</a>
 -->
