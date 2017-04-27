@@ -10,7 +10,7 @@ Welcome to the iPaaS website!
 
 # Authentication
 
-You must grant the iPaaS application the proper permissions via OpenShift.
+You must grant the iPaaS application the proper permissions via [OpenShift](https://www.openshift.com).
 
 1. When you first land on the application website you will be prompted to provide things like your name and email address.
 2. You are redirected to GitHub to allow permissions.
