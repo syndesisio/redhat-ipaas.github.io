@@ -49,12 +49,12 @@
     makeToc();
     animate();
 
-    try {
-      setupLanguages($('body').data('languages'));
-    } catch(err) {
-      console.log('Error: ' + err);
-    } finally {
+    if($('body').data('areas')) {
       setupAreas($('body').data('areas'));
+    }
+
+    if($('body').data('languages')) {
+      setupLanguages($('body').data('languages'));
     }
 
     $('.content').imagesLoaded( function() {
