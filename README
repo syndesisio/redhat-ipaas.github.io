@@ -1,0 +1,24 @@
+<h1 id="red-hat-ipaas">Red Hat iPaaS</h1>
+
+<p>The GitHub repository for the Red Hat iPaaS website, where you&rsquo;ll find a User Guide, Developer Guide with documentation, and any relevant information about the project.</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>If you want to contribute to this repository, please fork it first and clone that fork to your computer. Then, to run it you must have Ruby, <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installed. Linux-based distros usually come with Ruby installed already. If not, please use <a href="http://rbenv.org/" target="_blank" rel="nofollow">rbenv</a> or <a href="https://rvm.io/" target="_blank" rel="nofollow">RVM</a> to manage your Ruby installations.</p>
+<pre class="highlight plaintext"><code>gem install jekyll bundler
+bundle exec middleman server
+</code></pre>
+<p>You should be able to see the Red Hat iPaaS website in your browser on <code class="prettyprint">http://localhost:4000</code>.</p>
+
+<h3 id="building-deploying-to-github-pages">Building &amp; Deploying to GitHub Pages</h3>
+
+<p>We currently use <a href="https://github.com/middleman-contrib/middleman-deploy">middleman-deploy</a> to deploy the iPaaS website. The build and deploy process is as follows:</p>
+
+<ol>
+<li>Developer commits their contributions to the <code class="prettyprint">redhat-ipaas.github.io</code> repository that they have cloned to their desktop.</li>
+<li><code class="prettyprint">git checkout -b source</code> to create a <code class="prettyprint">source</code> branch. We cannot work from the default <code class="prettyprint">master</code> branch as that is what serves our built files.</li>
+<li>A GitHub hook initiates a call to <a href="https://circleci.com/gh/redhat-ipaas/redhat-ipaas.github.io" target="_blank" rel="nofollow">CircleCI</a> to trigger a build.</li>
+<li>CircleCI uses the <code class="prettyprint">circle.yml</code> file to determine how to build the project.</li>
+<li>In the case of our <code class="prettyprint">circle.yml</code> file, <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installs dependencies, such as <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and middleman-deploy. Finally, it runs <code class="prettyprint">bundle exec middleman deploy</code>, which builds the files from the <code class="prettyprint">source</code> branch and copies them to the <code class="prettyprint">master</code> branch.</li>
+<li>GitHub serves the <code class="prettyprint">master</code> branch&rsquo;s static HTML to the public via <a href="https://redhat-ipaas.github.io/" target="_blank" rel="nofollow">https://redhat-ipaas.github.io/</a>.</li>
+</ol>

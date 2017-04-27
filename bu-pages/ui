@@ -21,9 +21,13 @@ how to get set up with the UI, please go see the <a href="https://github.com/red
 <li>Code Analysis: <a href="https://github.com/mgechev/codelyzer">Codelyzer</a> (TsLint rules for static code analysis of Angular 2 TypeScript projects)</li>
 </ul>
 </blockquote>
-<h1 id='contributing'>Contributing</h1>
+
+<h1 id="contributing">Contributing</h1>
+
 <p>Pull requests are always welcome. Please read through our <a href="https://github.com/redhat-ipaas/ipaas-ui/blob/master/docs/contributing.md">Contribution</a> guidelines in the <code class="prettyprint">/docs</code> directory.</p>
-<h2 id='resources'>Resources</h2>
+
+<h2 id="resources">Resources</h2>
+
 <ul>
 <li><a href="https://angular.io/">Angular</a></li>
 <li><a href="https://github.com/angular/angular-cli">angular-cli</a></li>

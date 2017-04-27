@@ -1,25 +1,33 @@
 <p>Pull requests are always welcome. Please be sure to read through this entire guide before opening up 
 a pull request.</p>
-<h2 id='getting-started'>Getting Started</h2>
+
+<h2 id="getting-started">Getting Started</h2>
+
 <ul>
 <li>Fork the repository you&rsquo;d like to collaborate on.</li>
 <li>Clone your fork of that repository, NOT the original repository directly.</li>
 <li>Follow instructions on the README.md of the repository to install any dependencies. This 
 varies from repository to repository.</li>
 </ul>
-<h2 id='guidelines'>Guidelines</h2>
+
+<h2 id="guidelines">Guidelines</h2>
+
 <p>These are guidelines for consistency and to make everyone&rsquo;s lives easier, but we welcome contributors of all levels of expertise and will work with you to try and follow these best practices. An open source community is just that - a community - not a panel of experts. :)</p>
 
 <ul>
 <li><a href="https://github.com/redhat-ipaas/ipaas-ui-style-guide">UI Style Guide</a>{:target=&ldquo;_blank&rdquo;}</li>
 </ul>
-<h3 id='tests'>Tests</h3>
+
+<h3 id="tests">Tests</h3>
+
 <ul>
 <li>Please write unit tests for all of your code.</li>
 <li>If you are contributing to the Client, please also add to the E2E tests as well.</li>
 <li>Make sure all tests pass prior to creating a PR. If you make a PR with tests running and then make changes, please re-run those tests again just to be sure they are all passing with your new changes.</li>
 </ul>
-<h3 id='creating-prs'>Creating PRs</h3>
+
+<h3 id="creating-prs">Creating PRs</h3>
+
 <ul>
 <li>Please reference any GitHub issue relevant.</li>
 <li>Add user readable descriptions of the changes this PR brings if merged in.</li>
