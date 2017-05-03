@@ -5,9 +5,11 @@
 <h2 id="contributing">Contributing</h2>
 
 <p>If you want to contribute to this repository, please fork it first and clone that fork to your computer. Then, to run it you must have Ruby, <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installed. Linux-based distros usually come with Ruby installed already. If not, please use <a href="http://rbenv.org/" target="_blank" rel="nofollow">rbenv</a> or <a href="https://rvm.io/" target="_blank" rel="nofollow">RVM</a> to manage your Ruby installations.</p>
-<pre class="highlight plaintext"><code>gem install jekyll bundler
+
+<pre><code class="prettyprint">gem install jekyll bundler
 bundle exec middleman server
 </code></pre>
+
 <p>You should be able to see the Red Hat iPaaS website in your browser on <code class="prettyprint">http://localhost:4000</code>.</p>
 
 <h3 id="building-deploying-to-github-pages">Building &amp; Deploying to GitHub Pages</h3>
